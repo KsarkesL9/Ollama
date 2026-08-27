@@ -1,0 +1,21 @@
+{
+  "api_url": "http://127.0.0.1:11434",
+  "models": [
+    "qwen3.5:9b-q4_K_M",
+    "qwen3.5:27b-q4_K_M",
+    "qwen3.5:27b-q8_0",
+    "qwen3.5:27b-bf16",
+    "laguna-xs-2.1:q4_K_M",
+    "laguna-xs-2.1:q8_0"
+  ],
+  "prompts_file": "data/prompts.json",
+  "seed": 2026,
+  "repetitions": 3,
+  "warmup_requests": 1,
+  "num_predict": 256,
+  "num_ctx": 4096,
+  "temperature": 0,
+  "keep_alive": "10m",
+  "request_timeout_seconds": 900,
+  "sample_interval_seconds": 0.5
+}
