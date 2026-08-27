@@ -1,0 +1,188 @@
+{
+  "schema_version": 2,
+  "source": "custom",
+  "language": "English",
+  "description": "Thirty self-contained general-knowledge prompts written for infrastructure benchmarking, not answer-quality evaluation.",
+  "prompts": [
+    {
+      "id": "short-01",
+      "profile": "short",
+      "topic": "geography",
+      "text": "Why do coastal regions usually have milder temperatures than inland regions at the same latitude?"
+    },
+    {
+      "id": "short-02",
+      "profile": "short",
+      "topic": "mathematics",
+      "text": "Explain the difference between a prime number and a composite number, and give two examples of each."
+    },
+    {
+      "id": "short-03",
+      "profile": "short",
+      "topic": "programming",
+      "text": "What is the difference between a list and a set in Python, and when would you choose each one?"
+    },
+    {
+      "id": "short-04",
+      "profile": "short",
+      "topic": "biology",
+      "text": "What role does DNA play in a living cell, and how are genes related to proteins?"
+    },
+    {
+      "id": "short-05",
+      "profile": "short",
+      "topic": "history",
+      "text": "What were three important causes of the French Revolution, and what changed after it began?"
+    },
+    {
+      "id": "short-06",
+      "profile": "short",
+      "topic": "physics",
+      "text": "Why does an astronaut appear weightless while orbiting Earth even though Earth's gravity is still acting?"
+    },
+    {
+      "id": "short-07",
+      "profile": "short",
+      "topic": "economics",
+      "text": "How can inflation reduce purchasing power, and why do central banks often raise interest rates in response?"
+    },
+    {
+      "id": "short-08",
+      "profile": "short",
+      "topic": "astronomy",
+      "text": "What causes the seasons on Earth, and why are they not mainly caused by Earth's distance from the Sun?"
+    },
+    {
+      "id": "short-09",
+      "profile": "short",
+      "topic": "chemistry",
+      "text": "What happens to atoms during a chemical reaction, and how is this different from a nuclear reaction?"
+    },
+    {
+      "id": "short-10",
+      "profile": "short",
+      "topic": "civics",
+      "text": "Why is the separation of legislative, executive, and judicial powers important in a democracy?"
+    },
+    {
+      "id": "medium-01",
+      "profile": "medium",
+      "topic": "environmental science",
+      "text": "Explain how water moves through the natural water cycle. Include evaporation, transpiration, condensation, precipitation, infiltration, groundwater, and surface runoff. Then describe two ways in which a large city can alter this cycle through paved surfaces, storm drains, water extraction, or urban heat. Keep the explanation understandable to a secondary-school student and distinguish between the movement of water and changes in its physical state."
+    },
+    {
+      "id": "medium-02",
+      "profile": "medium",
+      "topic": "mathematics",
+      "text": "A school club has 12 students: 7 study Spanish, 6 study German, and 3 study both languages. Use the inclusion-exclusion principle to determine how many students study at least one of the two languages and how many study neither language. Explain each step rather than only giving the answer. Finally, state the general inclusion-exclusion formula for two finite sets and explain why simply adding 7 and 6 would count some students twice."
+    },
+    {
+      "id": "medium-03",
+      "profile": "medium",
+      "topic": "programming",
+      "text": "Design a simple Python function that receives a list of words and returns the three most frequent words, ignoring capitalization and punctuation. Describe the algorithm before presenting the code. Use only the Python standard library, handle an empty input list, and explain the expected time complexity in terms of the total number of characters and the number of distinct words. Include a short example showing the input and returned result."
+    },
+    {
+      "id": "medium-04",
+      "profile": "medium",
+      "topic": "biology",
+      "text": "Compare photosynthesis and cellular respiration. Identify where each process occurs in a plant cell, describe the main inputs and outputs, and explain how energy is stored or released. Make clear that plants perform both processes rather than photosynthesis alone. End by explaining how the two processes connect the carbon and oxygen cycles between living organisms and the atmosphere. Avoid excessive biochemical detail but use the terms glucose, ATP, chloroplast, and mitochondrion correctly."
+    },
+    {
+      "id": "medium-05",
+      "profile": "medium",
+      "topic": "history",
+      "text": "Explain how the Industrial Revolution changed work and daily life in nineteenth-century Europe. Discuss factories, urbanization, transportation, working conditions, and the growth of new social classes. Include at least one benefit and one serious social cost. Distinguish technological change from the political responses that followed, such as labor organization and factory regulation. Present the answer as a connected explanation rather than a list of unrelated facts."
+    },
+    {
+      "id": "medium-06",
+      "profile": "medium",
+      "topic": "physics",
+      "text": "A cyclist travels 150 meters east in 30 seconds, waits for 10 seconds, and then travels 50 meters west in 20 seconds. Calculate the total distance, final displacement, average speed, and average velocity for the entire trip. Clearly state the sign convention you use for direction and include the waiting time in the averages. Explain why average speed and the magnitude of average velocity are different in this example."
+    },
+    {
+      "id": "medium-07",
+      "profile": "medium",
+      "topic": "economics",
+      "text": "Describe how supply and demand can determine the market price of a common product such as coffee. Explain what would probably happen to price and quantity if a drought reduced the coffee harvest while consumer demand remained unchanged. Then discuss why the real market response might be more complicated because of inventories, substitutes, long-term contracts, and expectations. Separate movements along a curve from shifts of an entire supply or demand curve."
+    },
+    {
+      "id": "medium-08",
+      "profile": "medium",
+      "topic": "astronomy",
+      "text": "Explain how astronomers can determine that a star has an orbiting exoplanet even when the planet cannot be photographed directly. Compare the transit method and the radial-velocity method, including what each method measures and what kinds of planets it detects most easily. Explain why observing several repeated signals is important and mention one source of a false positive that researchers must rule out."
+    },
+    {
+      "id": "medium-09",
+      "profile": "medium",
+      "topic": "chemistry",
+      "text": "Explain the pH scale and the meaning of acidic, neutral, and basic solutions. Describe what happens when hydrochloric acid reacts with sodium hydroxide, including the roles of hydrogen and hydroxide ions. Write a balanced chemical equation for the neutralization reaction and explain why the final pH is not always exactly seven when real solutions with unknown concentrations are mixed."
+    },
+    {
+      "id": "medium-10",
+      "profile": "medium",
+      "topic": "computer science",
+      "text": "Compare a stack and a queue as abstract data structures. Explain the order in which elements are removed, name the standard insertion and removal operations, and give one realistic software example for each structure. Then describe how both structures could be implemented using arrays or linked lists and identify one efficiency consideration that would influence the choice of implementation."
+    },
+    {
+      "id": "long-01",
+      "profile": "long",
+      "topic": "climate science",
+      "text": "A fictional coastal country is planning for the next fifty years. Its largest city lies on a low river delta, its agricultural interior experiences increasingly irregular rainfall, and most electricity is produced from coal and natural gas. The government is considering sea walls, restored wetlands, drought-resistant crops, improved irrigation, solar and wind power, and a gradual carbon tax. Explain the difference between climate-change mitigation and adaptation, and classify each proposed measure accordingly. Discuss how sea-level rise, storm surge, heat, drought, and changing precipitation could interact rather than occurring as isolated problems. Compare the likely strengths and limitations of hard coastal defenses and restored wetlands. Explain why switching electricity generation can reduce future warming but cannot immediately remove risks already created by past emissions. Include the ideas of uncertainty, time horizon, maintenance cost, unequal exposure, and the possibility that one policy may create benefits or disadvantages for different social groups. Conclude with a balanced recommendation that prioritizes several measures without pretending that one intervention can solve every problem. Write for an informed public audience and distinguish established physical mechanisms from choices that depend on local economic and political values."
+    },
+    {
+      "id": "long-02",
+      "profile": "long",
+      "topic": "mathematics",
+      "text": "A regional hospital tests 10,000 people for a rare disease. One percent of the population has the disease. The diagnostic test has 95 percent sensitivity, meaning it correctly identifies 95 percent of people who have the disease, and 90 percent specificity, meaning it correctly reports a negative result for 90 percent of people who do not have it. Calculate the expected numbers of true positives, false negatives, true negatives, and false positives. Then calculate the probability that a randomly selected person who received a positive result actually has the disease. Explain why this probability is much lower than 95 percent even though the test has high sensitivity. Present the reasoning using both a table of expected counts and Bayes' theorem. Discuss how the result would change qualitatively if disease prevalence rose from one percent to ten percent while sensitivity and specificity stayed constant. Finally, explain why sensitivity, specificity, positive predictive value, and negative predictive value answer different questions. Keep all assumptions explicit, round numerical results sensibly, and warn against interpreting a screening result as a final medical diagnosis."
+    },
+    {
+      "id": "long-03",
+      "profile": "long",
+      "topic": "programming",
+      "text": "You are designing a small command-line library system in Python. Each book has an ISBN, title, author, and publication year. The program must add books, register members, lend a book, return a book, list overdue loans, and save its state to a JSON file. Describe a clean program structure using a few simple classes or data structures without introducing a web framework or database. Identify the main invariants, such as a book not being loaned to two members at once and an ISBN uniquely identifying a book. Show representative Python code for the data model and for the lend and return operations. Explain how file loading should handle a missing file and malformed JSON without silently destroying valid data. Discuss the difference between expected user errors and unexpected programming errors, and show where exceptions are useful. Include a short example session or sequence of function calls. Finally, describe several edge cases that should be checked manually, including duplicate books, unknown members, returning a book that is not on loan, and restarting the program after data has been saved. Prefer straightforward, readable standard-library code over clever abstractions."
+    },
+    {
+      "id": "long-04",
+      "profile": "long",
+      "topic": "biology",
+      "text": "Explain how natural selection can lead a bacterial population to become resistant to an antibiotic. Begin with genetic variation in the population before treatment and make clear that individual bacteria do not develop resistance because they need it. Describe how an antibiotic changes the environment, why susceptible cells die more often, how resistant survivors reproduce, and how resistance genes may also move between bacteria through horizontal gene transfer. Discuss why incomplete treatment, unnecessary prescriptions, agricultural antibiotic use, and poor infection control can increase selection or transmission, while avoiding the inaccurate claim that any single patient alone causes resistance. Distinguish resistance from tolerance and from a human body becoming accustomed to a drug. Then propose a combination of responses at the patient, hospital, agricultural, research, and public-policy levels. Explain why developing new antibiotics is helpful but cannot be the only strategy. Use the concepts of mutation, inheritance, selection pressure, population frequency, and trade-off correctly. End with a concise explanation suitable for someone who incorrectly believes that antibiotics work against viral infections such as influenza."
+    },
+    {
+      "id": "long-05",
+      "profile": "long",
+      "topic": "history",
+      "text": "Compare the political and economic transformations of Japan during the Meiji period with those of one European country during nineteenth-century industrialization. Explain the domestic and international pressures that encouraged Japanese leaders to reform government, education, the military, taxation, transport, and industry after 1868. Describe both state-directed initiatives and the role of private enterprise. For the European comparison, choose a country such as Britain or Germany and identify meaningful similarities and differences rather than treating industrialization as a single universal path. Discuss the social costs of rapid change, including labor conditions, urban growth, rural disruption, and unequal access to political power. Explain how industrial capacity affected military power and foreign policy, while avoiding the claim that industrialization automatically produced the same political system everywhere. Organize the answer around a clear argument supported by several specific examples. Note where historians may disagree about continuity, modernization, and the degree to which reforms were imposed from above. Conclude by explaining why the concept of modernization can be useful but also misleading when it suggests that every society follows one fixed sequence."
+    },
+    {
+      "id": "long-06",
+      "profile": "long",
+      "topic": "physics",
+      "text": "A remote research station needs a reliable electricity system. Its average demand is 120 kilowatts, but demand varies between 60 and 220 kilowatts. Engineers propose a 300-kilowatt wind turbine, a 250-kilowatt solar array, a battery storing 1,000 kilowatt-hours, and an existing diesel generator for emergencies. Explain the difference between power and energy and use the stated units correctly. Estimate how long the battery could supply the average load if it started full and no generation were available, first assuming an ideal battery and then describing how efficiency and a minimum state of charge would shorten that time. Explain why the nameplate capacities of the wind and solar systems do not guarantee continuous output. Discuss variability, capacity factor, weather correlation, peak demand, battery charge and discharge limits, and the role of the diesel generator. Propose a sensible operating strategy for normal conditions and several days of poor renewable production. Identify additional measurements engineers would need before deciding whether the design is adequate. Do not claim that a single calculation proves reliability; distinguish an energy-balance estimate from a detailed time-series simulation."
+    },
+    {
+      "id": "long-07",
+      "profile": "long",
+      "topic": "economics",
+      "text": "A city is considering a congestion charge for cars entering its center during weekday peak hours. Supporters expect less traffic, faster buses, cleaner air, and new public-transport revenue. Opponents argue that the charge will burden lower-income workers, hurt shops, move traffic into nearby neighborhoods, and require an expensive monitoring system. Analyze the proposal using the economic ideas of external costs, incentives, price elasticity, substitutes, distributional effects, and administrative costs. Explain why the number of trips may respond differently in the short run and long run. Discuss how exemptions, income-based rebates, improved public transport, delivery rules, and geographic boundaries could change both efficiency and fairness. Identify evidence the city should collect before implementation and indicators it should monitor afterward, including travel time, traffic volume, air pollution, retail activity, public-transport crowding, and effects on neighboring districts. Compare the charge with at least two alternatives such as parking reform, fuel taxes, or direct limits on vehicles. Conclude with a conditional recommendation rather than assuming that either supporters or opponents must be entirely correct."
+    },
+    {
+      "id": "long-08",
+      "profile": "long",
+      "topic": "astronomy",
+      "text": "Astronomers discover a star whose brightness falls by one percent every twelve days for about three hours. Spectroscopic measurements also show a small repeating shift in the star's radial velocity. Explain how these two observations can support the conclusion that an exoplanet orbits the star. Describe what the transit depth, transit period, transit duration, and radial-velocity amplitude can reveal, and identify which additional stellar properties must be known to estimate the planet's radius and mass. Explain how combining radius and mass allows an estimate of average density and why density can suggest, but not uniquely determine, composition. Discuss orbital inclination and why most planets do not transit from Earth's viewpoint. Identify possible false positives, including starspots, eclipsing binary stars, instrumental noise, or another star blended into the image, and describe follow-up observations that could test them. Finally, explain why finding the planet inside a nominal habitable zone would not by itself prove that the planet has liquid water or life. Keep the discussion conceptual; equations may be included, but define every variable used."
+    },
+    {
+      "id": "long-09",
+      "profile": "long",
+      "topic": "chemistry",
+      "text": "A laboratory must prepare 500 milliliters of a 0.20 molar sodium chloride solution using solid sodium chloride, and then prepare 100 milliliters of a 0.050 molar solution by diluting the first solution. Explain both procedures step by step. Calculate the number of moles and mass of sodium chloride needed for the first solution using a molar mass of 58.44 grams per mole. For the dilution, use the relationship between initial concentration, transferred volume, and final concentration to calculate how much stock solution is required. Distinguish dissolving a measured mass and filling to a final volume from simply adding that volume of water. Describe appropriate glassware and basic safety and labeling practices. Discuss several sources of experimental error, such as an inaccurate balance, incomplete transfer, reading a meniscus incorrectly, using wet glassware, or exceeding the calibration temperature. End by explaining how the particle-level description of dissolved sodium and chloride ions relates to molarity without implying that sodium chloride molecules remain intact in water."
+    },
+    {
+      "id": "long-10",
+      "profile": "long",
+      "topic": "computer science",
+      "text": "A university stores millions of course-registration records. Each record contains a student identifier, course identifier, semester, grade status, and timestamp. Users need to find all courses for one student, list all students in one course, count enrollments by semester, and produce periodic reports. Compare the suitability of a relational database with storing the records in JSON files. Discuss schema, indexing, joins, transactions, concurrent updates, validation, backup, and query flexibility. Propose a minimal relational schema with tables, primary keys, and foreign keys, including a way to prevent the same student from registering for the same course twice in one semester. Suggest useful indexes and explain which queries each index would accelerate, while noting that indexes also consume space and slow writes. Describe what could go wrong if two registration requests occur at the same time and how a transaction and uniqueness constraint help. Finally, outline a safe backup and restore strategy and explain why merely copying an actively changing database file may not produce a consistent backup. Keep the solution appropriate for a conventional university system rather than introducing distributed infrastructure without a demonstrated need."
+    }
+  ]
+}
